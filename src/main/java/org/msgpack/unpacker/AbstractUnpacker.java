@@ -31,7 +31,7 @@ public abstract class AbstractUnpacker implements Unpacker {
 
     protected int arraySizeLimit = 4194304;
 
-    protected int mapSizeLimit = 4149304;
+    protected int mapSizeLimit = 16777216;
 
     protected AbstractUnpacker(MessagePack msgpack) {
         this.msgpack = msgpack;
